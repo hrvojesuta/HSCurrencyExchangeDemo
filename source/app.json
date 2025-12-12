@@ -1,0 +1,36 @@
+{
+  "id": "50f4fa55-3f10-4320-9b3b-d0598a8de53c",
+  "name": "EX Currency Exchange Demo",
+  "publisher": "HS",
+  "version": "1.0.0.0",
+  "brief": "EX Currency Exchange Demo",
+  "description": "EX Currency Exchange",
+  "dependencies": [    
+
+  ],  
+  "screenshots": [],
+  "platform": "27.0.0.0",
+  "application": "27.0.0.0",
+  "logo": "logo/HSLogo.png",
+  "privacyStatement": "https://github.com/hrvojesuta",  
+  "help": "https://github.com/hrvojesuta",
+  "contextSensitiveHelpUrl": "https://github.com/hrvojesuta",
+  "url": "https://github.com/hrvojesuta",
+  "idRanges": [
+    {
+      "from": 70300,
+      "to": 70399
+    }
+  ],  
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },  
+  "runtime": "16.0",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ],
+  "target": "Cloud"
+}
