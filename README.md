@@ -33,57 +33,7 @@ This repository is intended as a portfolio project showcasing production-style l
 
 🔐 OAuth2-secured API access (AAD)
 
-🧱 Architecture Overview
-+-------------------+
-| EX Sync Setup     |
-| (Setup Table)     |
-+---------+---------+
-          |
-          v
-+-------------------+
-| EX Sync Management|  <-- HttpClient + JSON parsing
-+---------+---------+
-          |
-          v
-+-------------------+
-| Currency Exchange |
-| Rate Table        |
-+---------+---------+
-          |
-          v
-+-------------------+
-| EX Sync Log       |
-| (Execution Logs)  |
-+-------------------+
-
-          |
-          v
-+-------------------+
-| API Pages         |
-|(to be implemented)|
-+-------------------+
-
-🧩 Solution Structure
-HSCurrencyExchangeDemo/
-│
-├── source/
-│   ├── Tables/
-│   │   ├── EXSyncSetup.Table.al
-│   │   ├── EXSyncLog.Table.al
-│   │
-│   ├── Pages/
-│   │   ├── EXSyncLogList.Page.al
-│   │   ├── EXSyncSetupCard.Page.al
-│   │
-│   ├── Codeunits/
-│   │   ├── EXSyncJob.Codeunit.al
-│   │   ├── EXSyncManagement.Codeunit.al
-│   │
-│   ├── API/
-│   │   ├── To be implemented......
-│
-├── app.json
-└── README.md
+🧱 Architecture Overview -> in progress
 
 🚀 How to Run
 
